@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2022_11_06_140211) do
     t.integer "star_rating"
     t.string "comment"
     t.integer "product_id"
-    t.integer "integer"
+    t.integer "user_id"
   end
 
   create_table "users", force: :cascade do |t|
