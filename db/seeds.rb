@@ -17,8 +17,8 @@ product4 = Product.create(name: "Ballpoint Pens", price: 2)
 product5 = Product.create(name: "Scotch Tape", price: 3)
 
 puts "Creating reviews..."
-review1=Review.create(star_rating: 1,comment: "best product",product_id: 1,user_id: 1)
-review2=Review.create(star_rating: 2,comment: "this product is awesome",product_id: 2,user_id: 2)
+review1=Review.create(star_rating: 1, comment: "best product", product_id: 1, user_id: 1)
+review2=Review.create(star_rating: 2, comment: "this product is awesome", product_id: 2, user_id: 2)
 # *****************************************************************
 # * TODO: create reviews! Remember, a review belongs to a product *
 # * and a review belongs to an user.                              *
